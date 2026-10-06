@@ -1,3 +1,3 @@
 FROM ubuntu:alpine
-copy app usr/share/nginx/html
+copy app/index.html usr/share/nginx/html
 
