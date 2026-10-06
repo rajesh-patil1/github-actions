@@ -13,8 +13,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Print message
-        run: echo "Hello from GitHub Actions!"
+      - name: Dcoker build
+        run: docker build -t firstimage .
 
       - name: List files
         run: ls -la
